@@ -1,0 +1,14 @@
+li {
+    list-style: none;
+}
+
+ul {
+    gap: 10px;
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(144, 200, 201, 0.695);
+    padding: 10px;
+}
