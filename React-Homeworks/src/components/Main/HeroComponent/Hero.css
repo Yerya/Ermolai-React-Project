@@ -1,0 +1,21 @@
+
+.hero {
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero__food-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .hero__food-list{
+        grid-template-columns: 1fr;
+    }
+}

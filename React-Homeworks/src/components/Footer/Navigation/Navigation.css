@@ -1,0 +1,20 @@
+.black{
+    font-weight: 400;
+}
+
+.footer__p {
+    color: var(--color-grey);
+}
+
+.footer__nav,
+.footer__nav > div {
+    gap: 2rem;
+}
+
+.footer__nav > div{
+    flex-direction: column;
+}
+
+.footer_p.black{
+    font-size: 1rem;
+}

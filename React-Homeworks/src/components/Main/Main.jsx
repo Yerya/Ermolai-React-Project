@@ -1,8 +1,13 @@
-import "./styles.css"
+import MainMenu from "./MenuServices/MenuServices";
+import Hero from "./HeroComponent/Hero";
+import "./Main.css"
 
 function Main() {
     return (
-        <main>Мейн</main>
+        <main className="main flex-elem">
+            <MainMenu/>
+            <Hero/>
+        </main>
     )
 }
 
