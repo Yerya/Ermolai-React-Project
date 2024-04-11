@@ -1,4 +1,4 @@
-import "./SocialMedia.css";
+import "./FooterAttribution.css";
 
 function Links({img}) {
     return(

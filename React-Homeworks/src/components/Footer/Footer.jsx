@@ -1,7 +1,7 @@
 import Navigation from "./Navigation/Navigation";
-import SocialMedia from "./SocialMedia/SocialMedia";
+import FooterAttribution from "./FooterAttribution/FooterAttribution";
 import Copyright from "./Copyright/Copyright";
-import Links from "./SocialMedia/Links";
+import Links from "./FooterAttribution/Links";
 import instagram from "../../assets/instagram.svg"
 import twitter from "../../assets/twitter.svg"
 import youtube from "../../assets/youtube.svg"
@@ -14,7 +14,7 @@ function Footer() {
             <Navigation/>
             </div>
             <div className="footer__media flex-elem">
-            <SocialMedia/>
+            <FooterAttribution/>
             <nav className="footer__nav flex-elem">
             <Links img={instagram}/>
             <Links img={twitter}/>

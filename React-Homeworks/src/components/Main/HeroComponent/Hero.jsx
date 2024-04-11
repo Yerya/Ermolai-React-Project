@@ -1,28 +1,40 @@
+// Hero.jsx
+import React, { useState } from 'react';
 import FoodCard from "../../FoodCard/FoodCard";
-import { foodList } from "../../../__mocks__/testData";
+import { foodList, buttonsList } from "../../../__mocks__/testData";
 import Button from "../../Buttons/Buttons";
 import "./Hero.css";
 
 function Hero() {
-  const foodContent = foodList.map((burger) => {
+    const [activeButton, setActiveButton] = useState(1);
+
     return (
-      <FoodCard
-        key={burger.id}
-        title={burger.title}
-        subTitle={burger.subTitle}
-        price={burger.price}
-        imgUrl={burger.imgUrl}
-      />
+        <section className="hero flex-elem">
+            <div className="hero__buttons flex-elem">
+                {buttonsList.map((button) => (
+                    <Button
+                        key={button.id}
+                        buttonInfo={button.text}
+                        isActive={activeButton === button.id}
+                        onClick={() => setActiveButton(activeButton === button.id ? null : button.id)}
+                        type={activeButton === button.id ? "primary" : "transparent"}
+                    />
+                ))}
+            </div>
+            <div className="hero__food-list">
+                {foodList.map((burger) => (
+                    <FoodCard
+                        key={burger.id}
+                        title={burger.title}
+                        subTitle={burger.subTitle}
+                        price={burger.price}
+                        imgUrl={burger.imgUrl}
+                    />
+                ))}
+            </div>
+            <Button buttonInfo= "See more" />
+        </section>
     );
-  });
-  return (
-    <section className="hero flex-elem">
-      <div className="hero__food-list">
-      {foodContent}
-      </div>
-      <Button buttonInfo={"See more"} className={"button-blue"} />
-    </section>
-  );
 }
 
 export default Hero;

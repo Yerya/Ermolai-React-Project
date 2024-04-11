@@ -1,6 +1,6 @@
 
-import "./SocialMedia.css";
-function SocialMedia() {
+import "./FooterAttribution.css";
+function FooterAttribution() {
     return(
             <div className="social__info">
                 Built by <b className="blue">Flowbase</b> · Powered by <b className="blue">Webflow</b>
@@ -8,4 +8,4 @@ function SocialMedia() {
     );
 }
 
-export default SocialMedia
+export default FooterAttribution

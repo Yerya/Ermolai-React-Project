@@ -43,7 +43,7 @@
     margin: 0;
 }
 
-figcaption{
+.card__descr{
     flex-direction: column;
     justify-content: center;
     gap: 1rem;

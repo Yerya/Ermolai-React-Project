@@ -5,7 +5,7 @@ function Copyright() {
     return(
         <div className="footer_copy flex-elem">
             <Logo/>
-            <h2><p>Takeaway & Delivery template</p><p>for small - medium businesses.</p></h2>
+            <h2><span>Takeaway & Delivery template</span><span>for small - medium businesses.</span></h2>
       </div>
     )
 }

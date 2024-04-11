@@ -3,7 +3,7 @@ import "./FoodCard.css";
 import Button from "../Buttons/Buttons";
 
 function FoodCard({ title, subTitle, price, imgUrl }) {
-  const [quantity, setQuantity] = useState("1"); 
+  const [quantity, setQuantity] = useState("1");
 
   const handleChange = (event) => {
     const newQuantity = event.target.value;
@@ -11,12 +11,12 @@ function FoodCard({ title, subTitle, price, imgUrl }) {
   };
 
   return (
-    <figure className="card flex-elem">
+    <div className="card flex-elem">
       <div className="card__wrapper flex-elem">
         <div className="card__div-img flex-elem">
           <img className="card__img" src={imgUrl} alt="Pam" />
         </div>
-        <figcaption className="flex-elem">
+        <div className="card__descr flex-elem">
           <h2 className="card__h2 flex-elem">
             {title}<span className="card__span blue">{price}</span>
           </h2>
@@ -32,13 +32,12 @@ function FoodCard({ title, subTitle, price, imgUrl }) {
               />
             </div>
             <Button
-              buttonInfo={"Add to card"}
-              className={"button-blue"}
+              buttonInfo="Add to card"
             />
           </div>
-        </figcaption>
+        </div>
       </div>
-    </figure>
+    </div>
   );
 }
 

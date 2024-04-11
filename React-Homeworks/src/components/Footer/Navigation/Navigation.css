@@ -7,14 +7,18 @@
 }
 
 .footer__nav,
-.footer__nav > div {
+.footer__nav > li {
     gap: 2rem;
 }
 
-.footer__nav > div{
+.footer__nav > li {
     flex-direction: column;
+    justify-content: start;
+    align-items: start;
 }
 
 .footer_p.black{
     font-size: 1rem;
 }
+
+

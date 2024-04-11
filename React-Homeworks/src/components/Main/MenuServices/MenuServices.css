@@ -7,11 +7,6 @@
     gap: 2rem;
 }
 
-.menu-services__buttons{
-    gap: 1rem;
-    justify-content: center;
-}
-
 .phone-container{
     background-color: rgba(151, 227, 226, 0.561);
     border-radius: 1rem;
