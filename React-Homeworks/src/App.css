@@ -45,7 +45,7 @@ header{
 .background{
   flex-direction: column;
   justify-content: space-between;
-  background-image: url("./assets/BG\ Shape\ Content.svg");
+  background-image: url("./assets/BG Shape Content.svg");
   background-size: cover;
   background-position: right top;
   flex: 1;
@@ -69,4 +69,13 @@ h2 {
 h3 {
   font-size: 0.9rem;
   color: #546285;
+}
+
+.hide {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
