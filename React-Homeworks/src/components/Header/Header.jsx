@@ -1,10 +1,12 @@
-import NavBar from "./NavBar";
-import "./styles.css";
+import NavBar from "./NavBar/NavBar";
+import Logo from "../Logo/Logo";
+import "./Header.css";
 
-function Header({ elements }) {
+function Header() {
   return (
     <header className="header flex-elem">
-      <NavBar elements={elements} />
+      <Logo/>
+      <NavBar/>
     </header>
   );
 }
