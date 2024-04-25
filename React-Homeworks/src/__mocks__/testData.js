@@ -13,7 +13,7 @@ const navList = [
 ];
 
 const buttonsList = [
-  { id: 1, text: "Desert" },
+  { id: 1, text: "Dessert" },
   { id: 2, text: "Dinner" },
   { id: 3, text: "Breakfast" },
 ];
