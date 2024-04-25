@@ -1,9 +1,11 @@
+import React, { Component } from "react";
 import "./Cart.css";
 import CartImg from "../../../assets/Cart.svg";
-import { cartQuantity } from "../../../__mocks__/testData";
 
-function Cart() {
-  return (
+class Cart extends Component {
+  render() {
+    const { cartQuantity } = this.props;
+    return (
       <button className="header__button">
         <div className="header__cart flex-elem">
           <img className="header__cart-img" src={CartImg} alt="Cart-img" />
@@ -12,7 +14,8 @@ function Cart() {
           </div>
         </div>
       </button>
-  );
+    );
+  }
 }
 
 export default Cart;

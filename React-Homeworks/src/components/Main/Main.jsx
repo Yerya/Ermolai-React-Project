@@ -1,14 +1,17 @@
+import React, { Component } from "react";
 import MainMenu from "./MenuServices/MenuServices";
 import Hero from "./HeroComponent/Hero";
-import "./Main.css"
+import "./Main.css";
 
-function Main() {
+class Main extends Component {
+  render() {
     return (
-        <main className="main flex-elem">
-            <MainMenu/>
-            <Hero/>
-        </main>
-    )
+      <main className="main flex-elem">
+        <MainMenu />
+        <Hero increaseCartQuantity={this.props.increaseCartQuantity} />
+      </main>
+    );
+  }
 }
 
 export default Main;
