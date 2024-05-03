@@ -17,7 +17,7 @@
 html, body {
   font-family: 'Inter', sans-serif;
   color: var(--color-black);
-  font-size: 0.8rem;
+  font-size: 0.947rem;
 }
 
 .wrapper{
@@ -49,7 +49,7 @@ header{
   background-size: cover;
   background-position: right top;
   flex: 1;
-  padding: 3rem 5rem 2rem 5rem;
+  padding: 3rem 5rem 5rem;
   gap: 2rem;
 }
 
@@ -78,4 +78,11 @@ h3 {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  html, body {
+    font-size: 1.2rem;
+  }
+
 }
