@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Yerya/React_HW/static/css/main.9dd84116.css",
+    "main.js": "/Yerya/React_HW/static/js/main.2b11dede.js",
+    "static/media/HomePageImg.svg": "/Yerya/React_HW/static/media/HomePageImg.3b57305434c1e88ca880fcb7b0463b9f.svg",
+    "static/media/darkSpots.svg": "/Yerya/React_HW/static/media/darkSpots.2e4a87b28a7c50c48a6d.svg",
+    "static/media/Spots.svg": "/Yerya/React_HW/static/media/Spots.df38684d5a0502938458.svg",
+    "static/media/blue-waves.svg": "/Yerya/React_HW/static/media/blue-waves.7aaf965e66351ee285d0.svg",
+    "static/media/dark-instagram.svg": "/Yerya/React_HW/static/media/dark-instagram.829bcd5d6904e3e1c526a80b0ab7a07f.svg",
+    "static/media/instagram.svg": "/Yerya/React_HW/static/media/instagram.d168de7a79b8fd0a89dd38bac257a296.svg",
+    "static/media/dark-twitter.svg": "/Yerya/React_HW/static/media/dark-twitter.b629063b23d8007aa81e8f53e1c32751.svg",
+    "static/media/twitter.svg": "/Yerya/React_HW/static/media/twitter.c6dd14130ecb8ad06a95807c8ce15778.svg",
+    "static/media/dark-youtube.svg": "/Yerya/React_HW/static/media/dark-youtube.0f14bb89bb518fed9b8eb7ff401cfe78.svg",
+    "static/media/youtube.svg": "/Yerya/React_HW/static/media/youtube.9e63556b347b2016b70f4cbcc32819fb.svg",
+    "static/media/Logo.svg": "/Yerya/React_HW/static/media/Logo.db316619ba25459f5870f713f76c6c6c.svg",
+    "static/media/LightModeIcon.svg": "/Yerya/React_HW/static/media/LightModeIcon.bce31444d41bd8a064363d698b22bcf4.svg",
+    "static/media/DarkModeIcon.svg": "/Yerya/React_HW/static/media/DarkModeIcon.ccc4cfed29abd03255f2ce31e6fbd101.svg",
+    "static/media/Cart.svg": "/Yerya/React_HW/static/media/Cart.978b753e13e2992e787ebd47f6477de8.svg",
+    "index.html": "/Yerya/React_HW/index.html",
+    "static/media/GreenStar.svg": "/Yerya/React_HW/static/media/GreenStar.8f53602a501615c4e48d55c31a77be78.svg",
+    "static/media/BG dark-home.svg": "/Yerya/React_HW/static/media/BG dark-home.ffd19db3db01b71cf84f.svg",
+    "static/media/BG Shape Home.svg": "/Yerya/React_HW/static/media/BG Shape Home.6c1bd8d9df381b738fd0.svg",
+    "static/media/BG Shape Content.svg": "/Yerya/React_HW/static/media/BG Shape Content.8beeed994c573458ff7a.svg",
+    "static/media/BG dark-content.svg": "/Yerya/React_HW/static/media/BG dark-content.4424200f440273c0b3c9.svg",
+    "main.9dd84116.css.map": "/Yerya/React_HW/static/css/main.9dd84116.css.map",
+    "main.2b11dede.js.map": "/Yerya/React_HW/static/js/main.2b11dede.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd84116.css",
+    "static/js/main.2b11dede.js"
+  ]
+}
